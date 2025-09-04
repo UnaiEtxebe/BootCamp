@@ -1,0 +1,6 @@
+duration: 5.0
+machine:
+  cpm: 120
+conveyor:
+  length: 1.0
+  speed: 1.0
