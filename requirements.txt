@@ -1,0 +1,37 @@
+# PyChrono 9.0 Can Conveyor Simulation Requirements
+
+# Core PyChrono
+pychrono>=9.0.0
+
+# Visualization modules
+# Note: Install PyChrono with visualization support
+# For Vulkan support: pip install pychrono[vulkan]
+# For Irrlicht support: pip install pychrono[irrlicht]
+
+# Scientific computing
+numpy>=1.24.0
+
+# Optional: For data analysis and plotting
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# Installation Notes:
+# ====================
+#
+# For full installation with Vulkan support:
+#   pip install pychrono[vulkan] numpy matplotlib pandas
+#
+# For basic installation with Irrlicht:
+#   pip install pychrono[irrlicht] numpy
+#
+# For development installation:
+#   pip install -r requirements.txt
+#
+# Platform-specific notes:
+# - Linux: May require additional system packages for Vulkan
+#   sudo apt-get install vulkan-tools libvulkan-dev
+#
+# - Windows: Ensure you have the latest graphics drivers
+#
+# - macOS: Vulkan support through MoltenVK
+#   brew install vulkan-headers vulkan-loader molten-vk
